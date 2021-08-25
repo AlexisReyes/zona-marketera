@@ -2,9 +2,9 @@ version: "3"
 services:
     server:
         build:
-            context: ./site
+            context: ./website
             dockerfile: Dockerfile
         volumes:
-            - ./site/src:/home/node/app
+            - ./website/src:/home/node/app
         ports:
             - "3000:8000"
