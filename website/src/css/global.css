@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;900&display=swap');
+
+@font-face {
+  font-family: 'myriad-pro';
+  src: url('../fonts/myriad-pro-regular.ttf') format('truetype');
+}
+.gradient {
+    background: linear-gradient(90deg, #51D94D 0%, #398b41 100%);
+}
+
+.texture {
+    background-image: url("../images/textura-zona-marketera.png");
+}
