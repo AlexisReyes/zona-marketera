@@ -17,7 +17,7 @@ function TitleCards() {
             <div className="flex flex-wrap no-underline hover:no-underline">
 
               <div className="w-full font-bold text-2xl text-center text-gray-800 my-4">Diseño</div>
-              <ul class="px-4 py-8 text-xl text-gray-700">
+              <ul className="px-4 py-8 text-xl text-gray-700">
                 <li>- Logotipo</li>
                 <li>- Manual de identidad</li>
                 <li>- Documentos corporativos</li>
@@ -37,7 +37,7 @@ function TitleCards() {
             <div className="flex flex-wrap no-underline hover:no-underline">
 
               <div className="w-full font-bold text-2xl text-center text-gray-800 my-4 mx-2">Estrategias de marketing digital</div>
-              <ul class="px-4 py-8 text-xl text-gray-700">
+              <ul className="px-4 py-8 text-xl text-gray-700">
                 <li>- Logotipo</li>
                 <li>- Manual de identidad</li>
                 <li>- Documentos corporativos</li>
@@ -57,7 +57,7 @@ function TitleCards() {
             <div className="flex flex-wrap no-underline hover:no-underline">
 
               <div className="w-full font-bold text-2xl text-center text-gray-800 my-4">Diseño</div>
-              <ul class="px-4 py-8 text-xl text-gray-700">
+              <ul className="px-4 py-8 text-xl text-gray-700">
                 <li>- Logotipo</li>
                 <li>- Manual de identidad</li>
                 <li>- Documentos corporativos</li>

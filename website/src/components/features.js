@@ -25,7 +25,7 @@ function Features() {
             <div className="w-full sm:w-1/2 p-6">
               <img className="w-full sm:h-64 mx-auto"
                 srcSet={`${webSmall} 280w, ${webMedium} 768w, ${webLarge} 1280w`}
-                sizes="(min-width: 932px) 500px, (min-width: 720px) 420px, (min-width: 375px) 320px"
+                sizes="(min-width: 1080px) 464px, (min-width: 640px) calc(45.71vw - 21px), calc(100vw - 48px)"
                 src={webSmall}/>
             </div>
           </div>
@@ -34,7 +34,7 @@ function Features() {
             <div className="w-full sm:w-1/2 p-6">
               <img className="w-full sm:h-64 mx-auto"
                 srcSet={`${vloggerSmall} 300w, ${vloggerMedium} 768w, ${vloggerLarge} 1280w`}
-                sizes="(min-width: 932px) 500px, (min-width: 720px) 420px, (min-width: 375px) 320px"
+                sizes="(min-width: 1080px) 464px, (min-width: 640px) calc(45.71vw - 21px), calc(100vw - 48px)"
                 src={vloggerSmall}/>
             </div>
             <div className="w-full sm:w-1/2 p-6 mt-6">
