@@ -48,13 +48,10 @@ function Footer() {
               <p className="uppercase text-gray-500 md:mb-6">Social</p>
               <ul className="list-reset mb-6">
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                      <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
+                      <a href="https://www.facebook.com/zmarketera" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
                   </li>
                   <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                      <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Linkedin</a>
-                  </li>
-                  <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                      <a href="#" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
+                      <a href="https://www.instagram.com/zona.marketera/?hl=es" className="no-underline hover:underline text-gray-800 hover:text-orange-500">Instagram</a>
                   </li>
               </ul>
           </div>

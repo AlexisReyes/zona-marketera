@@ -4,13 +4,11 @@ WORKDIR /home/node/app
 
 COPY package.json .
 
-RUN yarn global add gatsby-cli
+RUN yarn global add gatsby-cli@2.19.3
 
 RUN yarn install
 
 COPY gatsby-config.js .
-
-COPY .env .
 
 EXPOSE 8000
 
