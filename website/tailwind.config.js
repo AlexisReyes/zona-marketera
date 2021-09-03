@@ -6,11 +6,12 @@ module.exports = {
       fontFamily: {
         'roboto-slab': ['"Roboto Slab"', 'serif'],
         'myriad-pro': ['myriad-pro', 'sans']
+      },
+      colors: {
+        lime: {
+          default: '#50D94D'
+        }
       }
-    },
-    fontFamily: {
-      sans: ['ui-sans-serif', 'system-ui'],
-      serif: ['ui-serif', 'Georgia'],
     }
   },
   variants: {},
