@@ -16,9 +16,10 @@ function Navigation() {
 
         <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <div className="list-reset lg:flex justify-end flex-1 items-center">
-            <button type="submit" id="navAction" className="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">
-              Contacto
-            </button>
+            <a className="mx-6 font-myriad-pro tracking-widest" href="#">INICIO</a>
+            <a className="mx-6 font-myriad-pro tracking-widest" href="#">SERVICIOS</a>
+            <a className="mx-6 font-myriad-pro tracking-widest" href="#">NOSOTROS</a>
+            <a className="mx-6 font-myriad-pro tracking-widest" href="#">CONTACTANOS</a>
           </div>
         </div>
       </div>
