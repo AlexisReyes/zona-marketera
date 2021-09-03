@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         lime: {
           default: '#50D94D'
+        },
+        stone: {
+          default: '#323232'
         }
       }
     }
