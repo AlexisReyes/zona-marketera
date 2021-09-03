@@ -49,11 +49,11 @@ function Layout({ children }) {
               </svg>
             </div>
 
-            {/* Alternate features */}
-            <Features></Features>
-
             {/* Title cards */}
             <TitleCards></TitleCards>
+
+            {/* Alternate features */}
+            <Features></Features>
 
             {/* Waves SVG */}
             <svg className="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg">
