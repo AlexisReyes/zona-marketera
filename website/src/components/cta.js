@@ -35,7 +35,7 @@ function CTA() {
         </div>
       </div>
 
-      <div id="contact" className="md:w-3/4 w-full md:px-28 px-6 place-self-center">
+      <div id="contact" className="xl:w-3/4 w-full lg:px-28 md:px-6 place-self-center">
         <ContactForm></ContactForm>
       </div>
 
