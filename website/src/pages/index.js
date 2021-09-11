@@ -9,7 +9,7 @@ function IndexPage() {
 
       <SEO
         title="Zona marketera"
-        keywords={[`marketing`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`marketing`, `negocios`, `branding`, `zona`]}
       />
 
     </Layout>

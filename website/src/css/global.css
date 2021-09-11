@@ -4,10 +4,11 @@
   font-family: 'myriad-pro';
   src: url('../fonts/myriad-pro-regular.ttf') format('truetype');
 }
-.gradient {
-    background: linear-gradient(90deg, #51D94D 0%, #398b41 100%);
+
+.zm-background {
+  background-image: url("../images/zm-texture.png");
 }
 
-.texture {
-    background-image: url("../images/textura-zona-marketera.png");
+.gradient {
+  background: linear-gradient(90deg, #51D94D 0%, #398b41 100%);
 }

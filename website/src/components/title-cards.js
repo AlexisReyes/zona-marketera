@@ -1,5 +1,9 @@
 import React from "react";
 
+import brandingImg  from "../images/service-1.jpg";
+import marketingImg from "../images/service-2.jpg";
+import webDesignImg from "../images/service-3.jpg";
+
 function TitleCards() {
 
   return (
@@ -17,7 +21,7 @@ function TitleCards() {
         <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow ">
             <div className="flex flex-wrap bg-lime h-full">
-              <img className="w-full h-64" />
+              <img className="w-full h-64" src={brandingImg} />
               <div className="w-full font-bold text-2xl px-4 my-2">Branding</div>
               <div className="p-4 text-xl">
                 Creamos conceptos unicos que CONECTEN con tu negocio.
@@ -29,7 +33,7 @@ function TitleCards() {
         <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
             <div className="flex flex-wrap bg-lime h-full">
-              <img className="w-full h-64" />
+              <img className="w-full h-64" src={marketingImg} />
               <div className="w-full font-bold text-2xl px-4 m-2">Marketing Digital</div>
               <div className="p-4 text-xl">
                 ¡DEJA QUE TE ENCUENTREN! estar en medios digitales ya es una necesidad.
@@ -41,7 +45,7 @@ function TitleCards() {
         <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow ">
             <div className="flex flex-wrap bg-lime h-full">
-              <img className="w-full h-64" />
+              <img className="w-full h-64" src={webDesignImg} />
               <div className="w-full font-bold text-2xl px-4 my-2">Diseño Web</div>
               <div className="p-4 text-xl">
                 Brinda credibilidad a tu marca y hazte visible en los principales buscadores.
