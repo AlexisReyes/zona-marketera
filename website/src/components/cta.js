@@ -9,7 +9,7 @@ import zmLogo from "../images/zm-logo.png";
 function CTA() {
 
   return (
-    <section className=" grid pt-12 mb-12 zm-background">
+    <section className="grid pt-12 mb-12 zm-background">
 
       <div className="w-full">
         <img className="w-full h-full"
@@ -35,7 +35,7 @@ function CTA() {
         </div>
       </div>
 
-      <div className="w-3/4 md:px-28 px-6 place-self-center">
+      <div id="contact" className="md:w-3/4 w-full md:px-28 px-6 place-self-center">
         <ContactForm></ContactForm>
       </div>
 
