@@ -17,8 +17,8 @@ module.exports = {
       }
     }
   },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/forms')({ strategy: 'class' }),
-  ]
+  variants: {
+    opacity: ['disabled']
+  },
+  plugins: []
 };
