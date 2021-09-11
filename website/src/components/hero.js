@@ -16,8 +16,8 @@ function Hero() {
         <div className="w-full object-cover text-center relative cover-texture-1">
 
           <img className="w-full h-full z-50 cover-texture-1"
-            srcSet={`${heroSmall} 420w, ${heroMedium} 768w, ${heroLarge} 1280w`}
-            sizes="(min-width: 1080px) 464px, (min-width: 640px) calc(45.71vw - 21px)"
+            srcSet={`${heroSmall} 480w, ${heroMedium} 760w, ${heroLarge} 1280w`}
+            sizes="(min-width: 1540px) 1536px, (min-width: 1280px) 1280px, (min-width: 1040px) 1024px, (min-width: 780px) 768px, (min-width: 680px) 640px, calc(94.44vw + 17px)"
             src={heroSmall}/>
 
           <div className="absolute xl:left-28 xl:bottom-48 lg:left-16 lg:bottom-32 md:left-10 md:bottom-24 left-1.5 bottom-12">

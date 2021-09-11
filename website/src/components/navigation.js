@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "gatsby";
+
 import logo from "../images/logo-nav-zona-marketera.png";
 
 function Navigation() {
@@ -11,9 +13,9 @@ function Navigation() {
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 
         <div className="pl-4 flex items-center">
-          <a className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl text-gray-800"  href="#"> 
+          <Link to="/" className="toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl text-gray-800"> 
             <img className="inline" src={logo} />
-          </a>
+          </Link>
         </div>
 
         <div className="lg:hidden">
@@ -25,10 +27,10 @@ function Navigation() {
         </div>
         <div className={`${ isExpanded ? `block` : `hidden` } w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20`}>
           <div className={`${ isExpanded ? `flex flex-col text-right` : `lg:flex justify-end flex-1 items-center`}`}>
-            <a className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" href="#">INICIO</a>
-            <a className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" href="#">SERVICIOS</a>
-            <a className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" href="#">NOSOTROS</a>
-            <a className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" href="#">CONTACTANOS</a>
+            <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/">INICIO</Link>
+            <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/">SERVICIOS</Link>
+            <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/">NOSOTROS</Link>
+            <a className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" href="#contact">CONTACTANOS</a>
           </div>
         </div>
       </div>

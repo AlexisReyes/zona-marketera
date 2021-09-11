@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/contact-form";
 
 import shopingCartLarge from "../images/shoping-cart-1280.png";
 import shopingCartMedium from "../images/shoping-cart-760.png";
@@ -8,16 +9,16 @@ import zmLogo from "../images/zm-logo.png";
 function CTA() {
 
   return (
-    <section className="pt-12 mb-12 zm-background">
+    <section className=" grid pt-12 mb-12 zm-background">
 
       <div className="w-full">
         <img className="w-full h-full"
-          srcSet={`${shopingCartMedium} 768w, ${shopingCartLarge} 1280w`}
-          sizes="(min-width: 1080px) 464px, (min-width: 640px)"
+          srcSet={`${shopingCartMedium} 760w, ${shopingCartLarge} 1280w`}
+          sizes="100vw"
           src={shopingCartMedium}/>
       </div>
 
-      <div className="mt-10 pt-10 flex flex-col text-center">
+      <div className="mt-10 pt-10 flex flex-col text-center place-self-center">
 
         <div className="self-center mx-6">
           <img className="mb-10" src={zmLogo}/>
@@ -34,14 +35,12 @@ function CTA() {
         </div>
       </div>
 
-{/*      <form action="">
-        <button type="submit"
-          className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
-      </form>*/}
+      <div className="w-3/4 md:px-28 px-6 place-self-center">
+        <ContactForm></ContactForm>
+      </div>
 
     </section>
   );
 }
-
 
 export default CTA;

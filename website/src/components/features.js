@@ -13,8 +13,8 @@ function Features() {
           <div className="flex flex-wrap">
             <div className="md:w-1/2 w-full">
               <img className="w-full h-full"
-                srcSet={`${imageMedium} 768w, ${imageLarge} 1280w`}
-                sizes="(min-width: 1080px) 464px, (min-width: 640px) calc(45.71vw - 21px)"
+                srcSet={`${imageMedium} 760w, ${imageLarge} 1280w`}
+                sizes="(min-width: 1100px) 512px, (min-width: 780px) calc(40.67vw + 73px), 100vw"
                 src={imageMedium}/>
             </div>
             <div className="w-full h-full md:w-1/2 p px-8 md:pt-32 pt-8">
@@ -42,8 +42,8 @@ function Features() {
             </div>
             <div className="md:w-1/2 w-full">
               <img className="w-full h-full"
-                srcSet={`${videoMedium} 768w, ${videoLarge} 1280w`}
-                sizes="(min-width: 1080px) 464px, (min-width: 640px) calc(45.71vw - 21px)"
+                srcSet={`${videoMedium} 760w, ${videoLarge} 1280w`}
+                sizes="(min-width: 1100px) 512px, (min-width: 780px) calc(40.67vw + 73px), 100vw"
                 src={videoMedium}/>
             </div>
 
