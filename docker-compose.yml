@@ -4,9 +4,3 @@ services:
     image: nginx:1.18
     volumes:
       - ./website/public:/usr/share/nginx/html:ro
-  server:
-    build: ./website
-    volumes:
-      - ./website:/home/node/app
-    ports:
-      - "3000:8000"

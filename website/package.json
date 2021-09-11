@@ -4,6 +4,7 @@
   "version": "3.0.25",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
     "ftp-deploy": "^2.3.3",
     "gatsby": "2.25.0",
     "gatsby-plugin-manifest": "2.12.1",
