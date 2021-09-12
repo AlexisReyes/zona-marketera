@@ -2,5 +2,7 @@ version: "3"
 services:
   web-server:
     image: nginx:1.18
+    ports:
+      - "80:80"
     volumes:
-      - ./website/public:/usr/share/nginx/html:ro
+      - ./website/public:/usr/share/nginx/html
