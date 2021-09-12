@@ -31,7 +31,7 @@ function Navigation() {
         <div className={`${ isExpanded ? `block` : `hidden` } w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20`}>
           <div className={`${ isExpanded ? `flex flex-col text-right` : `lg:flex justify-end flex-1 items-center`}`}>
             <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/">INICIO</Link>
-            <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/">SERVICIOS</Link>
+            <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/services">SERVICIOS</Link>
             <Link className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" to="/">NOSOTROS</Link>
             <a className="mx-6 font-myriad-pro lg:mt-0 mt-4 tracking-widest" href="#contact">CONTACTANOS</a>
           </div>

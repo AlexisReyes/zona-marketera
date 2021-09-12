@@ -1,8 +1,7 @@
 import React from "react";
 import ContactForm from "../components/contact-form";
 
-import shopingCartLarge from "../images/shoping-cart-1280.png";
-import shopingCartMedium from "../images/shoping-cart-760.png";
+
 import zmLogo from "../images/zm-logo.png";
 
 
@@ -10,13 +9,6 @@ function CTA() {
 
   return (
     <section className="grid pt-12 mb-12 zm-background">
-
-      <div className="w-full">
-        <img className="w-full h-full"
-          srcSet={`${shopingCartMedium} 760w, ${shopingCartLarge} 1280w`}
-          sizes="100vw"
-          src={shopingCartMedium}/>
-      </div>
 
       <div className="mt-10 pt-10 flex flex-col text-center place-self-center">
 
