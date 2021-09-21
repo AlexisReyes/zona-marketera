@@ -9,7 +9,18 @@ import heroLarge from "../images/portada-services-lg.png";
 import heroMedium from "../images/portada-services-md.png";
 import heroSmall from "../images/portada-services-sm.png";
 
-import imageMedium from "../images/image-760.jpg";
+import digitalServicesLarge from "../images/digital-services-lg.png";
+import digitalServicesMedium from "../images/digital-services-md.png";
+import digitalServicesSmall from "../images/digital-services-sm.png";
+
+import brandingMedium from "../images/services-branding-md.png";
+import brandingSmall from "../images/services-branding-sm.png";
+import webDesignMedium from "../images/services-web-design-md.png";
+import webDesignSmall from "../images/services-web-design-sm.png";
+import photographyMedium from "../images/services-photography-md.png";
+import photographySmall from "../images/services-photography-sm.png";
+import videoMedium from "../images/services-video-md.png";
+import videoSmall from "../images/services-video-sm.png";
 
 import brandingText from "../images/branding-text.png";
 import photographyText from "../images/photography-text.png";
@@ -34,7 +45,10 @@ function ServicesPage() {
 
       <Hero images={servicesHeroImages} button={{to: '#contact', text: 'EMPECEMOS!!'}}></Hero>
 
-      <img src={heroLarge} />
+      <img className="w-full h-full"
+        srcSet={`${digitalServicesSmall} 480w, ${digitalServicesMedium} 760w, ${digitalServicesLarge} 1280w`}
+        sizes="100vw"
+        src={digitalServicesSmall} />
 
       <section className="bg-stone border-b font-myriad-pro">
         <div className="container max-w-5xl mx-auto">
@@ -42,9 +56,9 @@ function ServicesPage() {
           <div className="flex flex-wrap">
             <div className="md:w-1/2 w-full">
               <img className="w-full h-full"
-                srcSet={`${imageMedium} 760w, ${imageMedium} 1280w`}
+                srcSet={`${brandingSmall} 400w, ${brandingMedium} 600w`}
                 sizes="(min-width: 1100px) 512px, (min-width: 780px) calc(40.67vw + 73px), 100vw"
-                src={imageMedium}/>
+                src={brandingSmall}/>
             </div>
             <div className="w-full h-full md:w-1/2 px-8 pt-8">
               <img className="mb-4" src={brandingText} />
@@ -67,18 +81,18 @@ function ServicesPage() {
             </div>
             <div className="md:w-1/2 w-full">
               <img className="w-full h-full"
-                srcSet={`${imageMedium} 760w, ${imageMedium} 1280w`}
+                srcSet={`${webDesignSmall} 400w, ${webDesignMedium} 600w`}
                 sizes="(min-width: 1100px) 512px, (min-width: 780px) calc(40.67vw + 73px), 100vw"
-                src={imageMedium}/>
+                src={webDesignSmall}/>
             </div>
           </div>
 
           <div className="flex flex-wrap">
             <div className="md:w-1/2 w-full">
               <img className="w-full h-full"
-                srcSet={`${imageMedium} 760w, ${imageMedium} 1280w`}
+                srcSet={`${photographySmall} 400w, ${photographyMedium} 600w`}
                 sizes="(min-width: 1100px) 512px, (min-width: 780px) calc(40.67vw + 73px), 100vw"
-                src={imageMedium}/>
+                src={photographySmall}/>
             </div>
             <div className="w-full h-full md:w-1/2 px-8 pt-8">
               <img className="mb-4" src={photographyText} />
@@ -99,9 +113,9 @@ function ServicesPage() {
             </div>
             <div className="md:w-1/2 w-full">
               <img className="w-full h-full"
-                srcSet={`${imageMedium} 760w, ${imageMedium} 1280w`}
+                srcSet={`${videoSmall} 400w, ${videoMedium} 600w`}
                 sizes="(min-width: 1100px) 512px, (min-width: 780px) calc(40.67vw + 73px), 100vw"
-                src={imageMedium}/>
+                src={videoSmall}/>
             </div>
           </div>
         </div>
