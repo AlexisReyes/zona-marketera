@@ -65,7 +65,7 @@ function ServicesPage() {
               <h3 className="text-4xl font-bold leading-none mb-3 text-center">Creamos conceptos unicos que CONECTEN con tu negocio.</h3>
               <p className="md:mb-2 text-xl">Branding Corporativo (Logotipos, presentaciones, papeleria y manual de marca).</p>
               <p className="md:mb-2 text-xl">Diseño Editorial: (Trípticos, dípticos, volantes).</p>
-              <p className="md:mb-2 text-xl">Diseño Digital: (Desarrollo de nanners, graficos para redes sociale sy paginas web).</p>
+              <p className="md:mb-2 text-xl">Diseño Digital: (Desarrollo de banners, graficos para redes sociale sy paginas web).</p>
               <p className="md:mb-2 text-xl">Copy´s: (Textos creativos y correccion de estilo).</p>
             </div>
           </div>
