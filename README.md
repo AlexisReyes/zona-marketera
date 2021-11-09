@@ -16,9 +16,23 @@ GATSBY_RECAPTCHA_KEY - Google recaptcha site key.
 
 2.- Fill .env file
 
+`cp website/.env.sample website/.env.development`
+
+3.- Run development server
+
+`gatsby develop`
+
+
+## Build Production
+
+1.- Fill .env file with production ENV values.
+
 `cp website/.env.sample website/.env`
 
-2.- Start container
+2.- Run build for production
+
+`gatsby build`
+
+3.- Start container
 
 `docker-compose up -d`
-
