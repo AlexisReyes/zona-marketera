@@ -2,13 +2,13 @@
 
 # Gatsby Web Page
 
-### ENV vars
+## ENV vars
 
-GATSBY_EMAILJS_USERID - emailjs user ID.
-GATSBY_EMAILJS_TEMPLATEID - emailjs template ID.
-GATSBY_EMAILJS_SERVICEID - emailjs service ID.
-GATSBY_EMAILJS_TO_NAME - Contact Email receiver to name.
-GATSBY_RECAPTCHA_KEY - Google recaptcha site key.
+- GATSBY_EMAILJS_USERID - emailjs user ID.
+- GATSBY_EMAILJS_TEMPLATEID - emailjs template ID.
+- GATSBY_EMAILJS_SERVICEID - emailjs service ID.
+- GATSBY_EMAILJS_TO_NAME - Contact Email receiver to name.
+- GATSBY_RECAPTCHA_KEY - Google recaptcha site key.
 
 ## Development
 
