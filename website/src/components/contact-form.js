@@ -34,7 +34,11 @@ function ContactForm() {
 
     emailjs.send(`${process.env.GATSBY_EMAILJS_SERVICEID}`, `${process.env.GATSBY_EMAILJS_TEMPLATEID}`, templateParams)
       .then((result) => {
-          console.log('SUCCESS!', result, result.status, result.text);
+          alert("Hemos recibido tus comentarios, nuestro equipo se pondrá en contacto contigo.");
+          setName('');
+          setEmail('');
+          setTelephone('');
+          setComments('');
       }, (error) => {
          console.error('FAILED...', error);
       });
