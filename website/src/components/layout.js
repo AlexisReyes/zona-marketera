@@ -13,23 +13,22 @@ function Layout({ children }) {
           site {
             siteMetadata {
               title,
-              github,
-              blog
+              facebook,
+              twitter,
+              whatsap,
+              instagram
             }
           }
         }
       `}
       render={data => (
-
         <div className="leading-normal tracking-normal text-white font-roboto-slab">
 
-            {/* Navigation */}
             <Navigation></Navigation>
 
             {children}
 
-            {/* Footer */}
-            <Footer></Footer>
+            <Footer links={data.site.siteMetadata}></Footer>
 
         </div>
       )}

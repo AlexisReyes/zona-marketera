@@ -1,13 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Un lugar para crecer`,
-    description: ``,
+    description: 'Zona marketera es el lugar para crecer tu negocio',
     author: `@alexisrysc`,
-    github: `https://github.com/app-generator/gatsbyjs-starter-tailwindplay`,
-    blog: `https://blog.appseed.us/tag/gatsbyjs`,
-    product: `https://appseed.us/apps/gatsbyjs`,
-    docs: `https://docs.appseed.us/apps/gatsbyjs`
-
+    facebook: `https://facebook.com`,
+    whatsap: `https://whatsap.com`,
+    twitter: `https://twitter.com`,
+    instagram: `https://instagram.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
