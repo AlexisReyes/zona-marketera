@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/553fc5a0-cf9e-4a10-a675-6904acba046d/deploy-status)](https://app.netlify.com/sites/zonamarketera/deploys)
+
 # Gatsby Web Page
 
 ### ENV vars
