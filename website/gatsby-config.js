@@ -1,4 +1,5 @@
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
     title: `Un lugar para crecer`,
     description: 'Zona marketera es el lugar para crecer tu negocio',
